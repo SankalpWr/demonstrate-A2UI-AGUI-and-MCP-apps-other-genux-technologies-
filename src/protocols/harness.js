@@ -1,0 +1,1 @@
+export function harnessPlan(mode) { return {harness:'simple-coding-harness', steps:[`receive ${mode} request`,'select protocol adapter','validate against catalog','render in sandbox','emit event and capture result']}; }

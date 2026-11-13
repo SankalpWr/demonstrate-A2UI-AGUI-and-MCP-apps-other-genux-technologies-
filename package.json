@@ -1,0 +1,8 @@
+{
+  "name": "genux-lecture-suite",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"start":"node src/server/index.js", "test":"node --test", "lint":"node --check src/server/index.js src/protocols/*.js src/examples/*.js"},
+  "engines": {"node":">=20"}
+}
